@@ -1,0 +1,118 @@
+  *{
+	padding: 0;
+	margin: 0;
+	}
+nav 
+{
+	
+	background-color:rgba(30,84,160,1.00);
+	height: 50px;
+	width: 573px;
+	margin: 0px auto;
+	
+	
+}
+nav ul 
+{
+	padding: 0;
+	margin: 0;
+	margin: 0px auto;
+	
+}
+nav ul li
+{
+	list-style-type: none;
+	width: 190px;
+	float: left;
+	border-right: 1px solid white;
+	text-align:center;
+	margin:0px auto;
+	
+}
+li a
+{
+	text-decoration: none;
+	color: white;
+	line-height: 50px;
+	display: block;
+	font-size: 18px;
+}
+li a:hover
+{
+	background-color:rgba(128,182,225,1.00);
+		color:rgba(0,0,0,0.96);
+		font-style: bold;
+		
+}
+p
+{
+	width: 573px;
+	margin: 0px auto;
+}
+h3
+{
+	color:rgba(176,24,27,1.00);
+	margin:0px auto;
+}
+h2
+{
+	color:rgba(176,24,27,1.00);
+	margin: 0px auto;
+}
+button
+{
+	margin:0px auto;
+	width:15em;
+	height:2em;
+}
+input[type=button],[type=submit]
+{
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:hover{
+	  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+div
+{
+margin:0px auto;
+width:573px;
+}
+div textarea
+{
+	font-family:"Verdana";
+	font-size: 16px;
+	padding:0;
+	margin:0px auto;
+	align:center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
